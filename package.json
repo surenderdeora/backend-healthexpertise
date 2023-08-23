@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon ./index.js",
-    "build": "npx tsc"
+    "build": "npx webpack "
   },
   "keywords": [],
   "author": "",
@@ -18,5 +18,12 @@
     "mongoose": "^7.4.3",
     "nodemon": "^3.0.1",
     "vercel": "^32.0.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.22.10",
+    "@babel/core": "^7.22.10",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-node-externals": "^3.0.0"
   }
 }
