@@ -2,7 +2,7 @@ require('dotenv').config(); // Load environment variables from .env file
 const express = require('express');
 const app = express();
 const cors = require("cors")
-const port = process.env.PORT || 8888; // Use 8080 as default port if PORT is not defined in environment
+const port = process.env.PORT || 8888; // Use 8888 as default port if PORT is not defined in environment
 
 // require route
 const authRoutes = require('./app/routes/authRoutes');
